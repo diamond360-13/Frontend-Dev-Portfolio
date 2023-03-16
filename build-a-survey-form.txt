@@ -1,0 +1,78 @@
+** start of undefined **
+
+<!-- HTML Document start -->
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<link rel="stylesheet" href="styles.css"> 
+</head> 
+<body> 
+<h1 id="title"> TechForNormalPeople Interest Survey </h1> 
+<!-- TODO: Write short explanation for survey -->
+<p id="description"> Please complete this survey as a formal expression of your interest in joining TechforNormalPeople, INC. All people welcome, no animals allowed. </p> 
+<!-- Survey starts here -->
+<form id="survey-form"> 
+  <!-- Name field -->
+  <fieldset for="name"> <label id="name-label"> Name </label>  <input id="name" type="text" placeholder="Enter your name"  required> </input> 
+  </fieldset>
+
+  <!-- Email field -->
+  <fieldset for="email"> <label id="email-label"> Email </label> <input id="email" type="email" placeholder="Enter your email" required> </input>
+  </fieldset> 
+  <!-- TODO: change length and width of number field on styles.css  --> 
+  <!-- Age field  -->
+<fieldset for="number"> <label id="number-label"> Age (optional) </label> <input id="number" type="number" min="0" max="99" placeholder="Age" > </input> 
+  </fieldset> 
+  <!-- Question #1 Experience Dropdown menu -->
+  <fieldset>
+    <label> Describe your experience level </label>
+  <select id="dropdown" name="dropdown"> 
+    <option disabled selected value> (select one) </option>
+    <option> New to this (entry) </option>
+    <option> True to this (experienced) </option>
+    <option> I basically started this (expert) </option>
+  </select> 
+  </fieldset> 
+  <!-- Question #2 Mentor/Mentee selection-->
+  <fieldset for="mentor">
+Are you interested in our mentor matching program? Choose one
+      <input id="mentor" name="mentor" type=radio class="mentor" value="Yes. I would like to be a mentor" >Yes. I would like to be a mentor</input>
+      <input id="mentor" name="mentor" type=radio class="mentor" value="Yes. I would like to be a mentee">Yes. I would like to be a mentee</input>
+       <input id="mentor" name="mentor" type=radio class="mentor" value="No. I don't want to be matched at this time">No. I don't want to be matched at this time</input>
+  </fieldset>
+  <!-- Question #3 Checkboxes for areas of interest -->
+  <fieldset>
+What areas of tech are you interested in?
+    <input type="checkbox" value="Web Development">Web Development</input>
+    <input type="checkbox" value="Product Design-Management">Product Design/Management</input>
+    <input type="checkbox" value="Cybersecurity">Cybersecurity</input>
+    <input type="checkbox" value="Any">Any</input>
+  </fieldset> 
+  <!-- Question #4 text area to enter any additional info --> 
+  <!-- TODO: Add placeholder to text area that says "Tell us anything else you think we should know" -->
+
+    <textarea> 
+  
+    </textarea> 
+  <!-- Submit Button --> 
+    <button id="submit" type="submit">
+    Submit
+    </button>
+    
+
+</form> 
+</body>
+</html> 
+
+
+** end of undefined **
+
+** start of undefined **
+
+mentor {
+  margin: auto;
+}
+
+
+** end of undefined **
+
