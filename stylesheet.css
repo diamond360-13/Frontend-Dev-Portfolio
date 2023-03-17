@@ -2,11 +2,13 @@
 h1 {
   text-align: center;
   font-size: 1em;
-  color: #009;
+  color: pink;
   margin-bottom: .3em;
   text-decoration: underline;
+  text-shadow: 3px;
 }
 
 .mentor {
-  margin: auto;
+  margin: auto 0;
+  justify-content: center;
 }
